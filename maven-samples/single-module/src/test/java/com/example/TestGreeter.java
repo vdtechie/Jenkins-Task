@@ -43,6 +43,6 @@ public class TestGreeter {
   
     @Test
     public void testAssertThatEqual() {
-        assertThat("123",is("1234"));
+        assertThat("123",is("123"));
     }
 }
