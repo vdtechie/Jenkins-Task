@@ -39,4 +39,10 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
+  
+  
+    @Test
+    public void testAssertThatEqual() {
+        assertThat("123",is("1234"));
+    }
 }
